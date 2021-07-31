@@ -1,3 +1,6 @@
+# This tool will verify the health of application
+# in this config, heartbeat will ping application every five seconds
+
 heartbeat.monitors:
 - type: http
   schedule: '@every 5s'
